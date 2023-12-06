@@ -1,0 +1,118 @@
+body{
+    background-color: white;
+}
+
+.title{
+    color: #F5BA3B;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: left;
+    background: linear-gradient(to top, red,green);
+}
+
+.box_one{
+    width:300px;
+    height:300px;
+    border:5px solid green;
+    /* margin: 40px; */
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+    background-color: antiquewhite;
+    box-shadow: 7px 10px 20px red;
+}
+
+.test2{
+    padding: 50;
+    background-color: red;
+    border: 5px solid black;
+    width: 50%;
+    margin: auto;
+    /* text-align: center; */
+}
+
+.child{
+    padding: 20px;
+    background-color: green;
+    width: 50%;
+    height: 100vh;
+}
+
+.first{
+    width: 200px;
+    height: 150px;
+    background-color: green;
+    float: left;
+}
+
+.second{
+    width: 200px;
+    height: 150px;
+    background-color: red;
+    float: left;
+}
+
+
+.box{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    /* margin: 10px; */
+    font-size: 25px;
+
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    gap: 10px;
+    /* flex-direction: row-reverse; */
+
+    height: 100vh;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+
+.box1{
+    background-color: blue;
+    position:absolute;
+    /* z-index: -1; */
+}
+
+.box2{
+    background-color: red;
+    /* position: relative; */
+    position: fix;
+    margin-top: 20px;
+
+}
+.box3{
+    background-color: green;
+    margin-top: 20px;
+}
+
+.green{
+    width: 450px;
+    background-color: green;
+    height: 250px;
+    margin: 50px;
+    position: absolute;
+    
+}   
+
+.red{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-radius: 60px;
+    position: relative;
+    
+    top: 32%;
+    left: 32%;
+}
