@@ -60,3 +60,13 @@ section {
     width: 100px;
 }
 /* Categories CSS Ends */
+
+
+/* CSS of Cards Section Starts */
+.card{
+    box-shadow: 0px 5px 17px;
+    padding: 10px;
+}
+
+
+/* CSS of Cards Section Ends */
