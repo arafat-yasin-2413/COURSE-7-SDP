@@ -1,0 +1,89 @@
+.title{
+    color:red;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width:480px) {
+    .title{
+        color: green;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width:768px){
+    .title{
+        color: goldenrod;
+        font-size:80px;
+        display: none;
+        /* display: block; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.banner-container{
+    height: 100vh;
+    background-image: url("./Images/background.jpg"),
+    linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+
+.banner-container2{
+    
+    background-image:url("./Images/background3.jpg"),
+    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 408px;
+
+}
+
+.doctor{
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+.parent{
+    height: 100vh;
+    justify-items: center;
+} */

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lucida Sans;
+}
+
+
+body{
+    width: 1000px;
+    height: 1200px;
+    background-color: #EFE2EC;
+}
+
+
+
+
+
+
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    margin: 50px;
+    box-shadow: 10px 10px 15px palevioletred;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+
+
+.card-text{
+    color: white;
+    background-color: blue;
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: Lucida Sans;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+.card-title{
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+.design-text{
+    color: #E97771;
+    padding: 10px;
+    text-align: left;
+
+}
+
+.dollar{
+    font-size: 30px;
+    padding: 10px;
+    text-align: left;
+}
+
+.card-description{
+    text-align: left;
+    padding-left: 10px;
+    
+}
+
+.option{
+    display: flex;
+    gap: 20px;
+}
+
+.op-icon img{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.op-text h5{
+    padding-top: 20px;
+}
+
+.btn{
+    background-color: white;
+    color: #361103;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.button-custom{
+    margin-top: 40px;
+    align-items: left;
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
