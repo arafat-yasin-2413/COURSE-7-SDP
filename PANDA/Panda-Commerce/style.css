@@ -1,1 +1,62 @@
-        
+/* Global CSS  */
+section {
+    padding: 40px 0px;
+}
+
+
+
+/* Slider CSS Starts */
+
+.slider{
+    background-color: #FAE6E4;
+}
+
+.price{
+    color: #FF3A6F;
+}
+
+
+.btn-slider{
+    background-color: #FF427E;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+}
+
+
+/* Slider CSS Ends */
+
+
+
+
+
+/* Categories CSS Starts */
+.watch{
+    background-color: #FFA500;
+    padding: 10px 30px;
+}
+
+.watch img{
+    width: 100px;
+}
+
+
+.bag{
+    background-color: #801C80;
+    padding: 10px 30px;
+}
+
+.bag img{
+    width: 110px;
+}
+
+.shoes{
+    background-color: #001FFF;
+    padding: 10px 30px;
+}
+
+.shoes img{
+    width: 100px;
+}
+/* Categories CSS Ends */
