@@ -7,7 +7,7 @@ section {
 
 /* Slider CSS Starts */
 
-.slider{
+.slider ,footer{
     background-color: #FAE6E4;
 }
 
@@ -70,3 +70,17 @@ section {
 
 
 /* CSS of Cards Section Ends */
+
+
+/* Footer Section CSS Starts */
+.ft-class{
+    border-radius: 10px;
+}
+/* Footer Section CSS Ends */
+
+
+/* @media (min-width: 0px) and (max-width: 767px) {
+    .watch{
+        margin-top: 20px;
+    }
+} */
