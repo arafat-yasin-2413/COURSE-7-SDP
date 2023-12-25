@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    background-color: #10adecc7;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.menus-container{
+    display: flex;
+    font-size: 22px;
+    list-style: none;
+    gap: 20px;
+    color: white;
+    align-items: center;
+    
+
+}
+
+/* TODO: banner container width = 80% */
+
+
+
+
+
+.title{
+    font-size: 36px;
+    color: #04336F;
+}
+
+.banner-left p{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.btn{
+    font-size: 26px;
+    color: white;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+.appn-btn{
+    background-color: #01608A;
+}
+
+.doc-btn{
+    background-color: #0180AA;
+}
+
+
+
+
+
+
+
+.banner-right{
+    background-image: url(./Images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+}
+
+
+.banner-container{
+    height: 100vh;
+
+    justify-content: center;
+    /* width: 80%; */
+
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    justify-content: space-evenly;
+}
+
+.banner-right img{
+    /* width: 40%; */
+    width: 350px;
+}
+
+
+
+.service-card{
+    width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 10px gray;
+    background-color: greenyellow;
+
+
+    align-items: center;
+
+
+}
+
+.service-card img{
+    width: 220px;
+    padding: 30px;
+}
+
+.service-cards{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+
+
+
+.input-box{
+    font-size: 16px;
+    padding: 12px;
+    margin: 10px;
+}
+
+.text-area{
+    font-size: 16px;
+    padding: 40px;
+    margin: 10px;
+}
+
+.submit-btn{
+    font-size: 24px;
+    color: white;
+    padding: 5px 100px;
+    background-color: #013A66;
+
+}
+
+
+.contact-us-container{
+    text-align: center;
+    /* align-items: center; */
+    /* height: 100vh; */
+    background-color: rgb(239, 231, 209);
+}
+
+.footer{
+    margin-top: 20px;
+    padding: 50px;
+
+    /* height: 100vh; */
+    background-color: #023B67;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    justify-content: center;
+    color: white;
+    
+}
+
+.footer-title{
+    font-size: 24px;
+    
+}
+
+.footer-items{
+    list-style: none;
+    font-size: 18px;
+}
+
+
+.address{
+    font-size: 18px;
+
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+}
