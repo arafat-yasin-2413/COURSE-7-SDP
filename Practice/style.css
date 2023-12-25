@@ -1,112 +1,587 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Lucida Sans;
 }
 
-
-body{
-    width: 1000px;
-    height: 1200px;
-    background-color: #EFE2EC;
+.banner-container {
+    height: 100vh;
+    background-image: url(./Images/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
-
-
-
-
-.card{
-    width: 350px;
-    height: 500px;
-    background-color: white;
-    margin: 50px;
-    box-shadow: 10px 10px 15px palevioletred;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-
-
-
-.card-text{
+.menus-container {
+    list-style: none;
     color: white;
-    background-color: blue;
-    width: 30%;
-    padding: 10px;
-    border-radius: 20px;
-    font-family: Lucida Sans;
-    font-size: 18px;
-    font-weight: 100;
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 50px;
+}
+
+.navbar-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    justify-content: space-evenly;
+
+
+}
+
+/* .navbar-container-2{
+    margin-top: 50px;
+} */
+
+
+.contact-btn {
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid gray;
 }
 
 
-.card-title{
-    padding: 30px;
+.prog-arena {
+
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+}
+
+
+.title {
+
+    margin-bottom: 30px;
+
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700px;
+    letter-spacing: -2px;
+
+    width: 468px;
+}
+
+.banner-left p {
+
+    margin-bottom: 30px;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFFA3;
+
+    width: 470px;
+    height: 66px;
+    flex-shrink: 0;
+}
+
+.about-us-btn {
+    background-color: #EF6D58;
+    color: white;
+    width: 154px;
+    height: 48px;
+    border-style: none;
+    border-radius: 2px;
+    font-size: 16px;
+
+
+}
+
+.contact-us-btn {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: transparent;
+    border-style: none;
+}
+
+
+.banner-right img {
+    width: 410px;
+    /* height: 572px; */
+    flex-shrink: 0;
+
+    /* mix-blend-mode: overlay; */
+    /* fill: #FFF; */
+}
+
+
+.banner-left-right-only {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons-box {
+    /* width: 160px; */
+    /* height: 48px; */
+    flex-shrink: 0;
+    gap: 10px;
+    display: flex;
+
+
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.icons-box img {
+    width: 10%;
+
+}
+
+
+
+
+.expertise-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-bottom: 50px;
+
+}
+
+
+.exp-title {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: #391400;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1px;
     text-align: center;
 }
 
 
 
-.design-text{
-    color: #E97771;
-    padding: 10px;
-    text-align: left;
+
+/* Third Page CSS Starts */
+.third-page-container {
+    height: 100vh;
+    background-image: url(./Images/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+
+    align-items: center;
+
 
 }
 
-.dollar{
-    font-size: 30px;
-    padding: 10px;
-    text-align: left;
+.laptop-box {
+
+    width: 600px;
+    /* background-color: green; */
+    margin-left: 200px;
+
 }
 
-.card-description{
-    text-align: left;
-    padding-left: 10px;
+
+.third-page-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.company-status {
+    color: #F2F2F2;
+}
+
+.company-status h3 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+
+    line-height: 48px;
+}
+
+.company-status h4 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+
+    line-height: 32px;
+}
+
+/* Third Page CSS Ends */
+
+
+
+/* Fourth Page CSS Starts */
+.portfolio-text {
+
+    /* margin-top: 100px; */
+    margin-bottom: 10px;
+
+    text-align: center;
+    color: #040935;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+
+}
+
+.latest-work-text {
+
+    margin-bottom: 40px;
+
+    color: #000;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1px;
+}
+
+.sofa {
+    width: 470px;
+    /* height: 416px; */
+    flex-shrink: 0;
+
+
+
+}
+
+
+.keyboard {
+    width: 670px;
+    flex-shrink: 0;
+
+
+}
+
+.work {
+    width: 670px;
+    flex-shrink: 0;
+}
+
+.ddd {
+    width: 470px;
+    flex-shrink: 0;
+}
+
+.latest-work-up {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    padding: 20px;
+}
+
+.latest-work-down {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    padding: 20px;
+}
+
+.fourth-page-container {
+    height: 120vh;
+    background-color: #F0E3EC;
+}
+
+/* Fourth Page CSS Ends */
+
+
+
+/* Fifth Page CSS Starts */
+
+.fifth-page-container {
+    height: 100vh;
+}
+
+.see-more-btn {
+    width: 166px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #0A135F;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+
+
+}
+
+
+
+.pricing-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    color: #EF6D58;
+}
+
+
+.check {
+    color: #391400;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1px;
+}
+
+
+
+
+
+
+
+
+.card {
+    width: 350px;
+    height: 420px;
+    /* background-color: greenyellow; */
+
+    border-radius: 6px ;
+    border:1px solid #F3D1BF;
+
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.card h4 {
+    color: #EF6D58;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 2px;
+
+}
+
+
+.card h3 {
+    color: #391400;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 15px 0px 15px 0px;
+
+}
+
+
+.card p {
+    color: #391400A3;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+
+.card h5{
+    color:#391400;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+
+
+.contact-us-btn-card {
+    width: 154px;
+    height: 40px;
+    flex-shrink: 0;
+
+    border-radius: 6px;
+    border-style: none;
+
+    background: #FFF;
+    box-shadow: 0px 3px 9px 0px rgba(57, 20, 0, 0.08);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    color: #391400;
+}
+
+
+.popular-btn-card{
+    padding:8px;
+    border-radius: 20px;
+}
+
+
+.market-analysis{
+    opacity: 0.4;
+}
+
+
+.production{
+    opacity: 0.4;
+}
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth-page-container {
+    height: 100vh;
+    background-color: #F0E3EC;
+}
+
+
+/* Fifth Page CSS Ends */
+
+
+/* Footer Page CSS Starts */
+.faq{
+    font-size: 16px;
+    color:#EF6D58;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+
+    padding: 20px 20px 40px 30px;
+}
+
+
+.agency{
+    color:#391400;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+
+
+}
+
+.menu-text{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 3px;
+
+}
+
+.menu-options{
+    list-style: none;
+}
+
+.menu-options{
+    color: #391400;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+
+
+.service-text{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 3px;
+
+}
+
+.service-options{
+    list-style: none;
+}
+
+.service-options{
+    color: #391400;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F0E3EC;
+    padding-bottom: 40px;
+    
     
 }
 
-.option{
+.copyright h5{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 32px;
+}
+
+.copyright{
     display: flex;
-    gap: 20px;
-}
-
-.op-icon img{
-    padding-top: 20px;
-    padding-left: 10px;
-}
-
-.op-text h5{
-    padding-top: 20px;
-}
-
-.btn{
-    background-color: white;
-    color: #361103;
-    font-size: 18px;
-    border-radius: 8px;
-    padding: 10px 20px;
-}
-
-.button-custom{
-    margin-top: 40px;
-    align-items: left;
-    margin-right: 100px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 
 
+/* Footer Page CSS Ends */
 
 
 
+.hr-container{
+    width: 80%;
+}
+
+.centered-hr{
+    width: 100%;
+}
 
 
+.hr-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
-
-
-
-
-
-
+.copyright-container{
+    background-color: #F0E3EC;
+    
+    height: 20vh;
+}
