@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menus-container{
+    gap: 20px;
+}
+
+.logo-container img{
+    width: 100px;
+}

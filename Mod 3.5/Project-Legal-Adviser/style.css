@@ -1,4 +1,198 @@
-.btn-primary{
-    background-color: #112E41;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+
+.navbar {
+    background-color: #ACECE8;
+}
+
+.first-page {
+    background-color: #18736D;
+}
+
+.main-title {
+    font-family: Montagu Slab;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 1.8px;
+}
+
+.description {
+    color: #D9D9D9;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 158%;
+    /* 37.92px */
+    letter-spacing: 0.5px;
+}
+
+.description-2 {
+    color: #D9D9D9;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.5%;
+    /* 30.91px */
+    letter-spacing: 0.88px;
+}
+
+.btn {
+    background-color: #092D43;
+}
+
+/* First Page CSS Ends */
+
+.second-page {
+    background-color: #CBF1EF;
+    position: relative;
+    /* top: -100px; */
+}
+
+.title-2 {
+    color: #18736D;
+    font-family: Montagu Slab;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 92.2%;
+    letter-spacing: 0.323px;
+}
+
+.description-3 {
+    color: #643939;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 180% */
+    letter-spacing: 0.5px;
+}
+
+
+
+.feature h1 {
+    color: rgba(0, 0, 0, 0.10);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Montagu Slab;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 16.923% */
+    letter-spacing: 0.5px;
+
+
+}
+
+.feature h3 {
+    color: var(--Text, #363940);
+    font-family: Montagu Slab;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 100% */
+    letter-spacing: 0.5px;
+}
+
+.feature p {
+    color: var(--Neutral-Grey-5, #8B8C8C);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.3px;
+}
+
+/* Second Page CSS Ends */
+
+
+
+.third-page {
+    background-color: #F2F7FF;
+}
+
+.title-3 {
+    color: var(--Neutral-Grey-7, #2D2F30);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Montagu Slab;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 133.333% */
+    letter-spacing: 0.5px;
+}
+
+.card-title {
+    color: var(--Text, #363940);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Montagu Slab;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 100% */
+    letter-spacing: 0.5px;
+}
+
+.card-text {
+    color: var(--Neutral-Grey-6, #4F4F4F);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.5px;
+}
+
+/* Third Page CSS Ends */
+
+
+
+.title-4 {
+    color: var(--Neutral-Grey-7, #2D2F30);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Montagu Slab;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 133.333% */
+    letter-spacing: 0.5px;
+}
+
+.description-4 {
+    color: var(--Neutral-Grey-6, #4F4F4F);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.5px;
+}
