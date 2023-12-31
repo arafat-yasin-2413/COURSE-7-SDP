@@ -37,6 +37,9 @@
 
 .slider-area {
     height: 550px;
+    background-image: url(./Images/banner-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Banner CSS */
@@ -49,9 +52,20 @@
 }
 
 .mac {
-    width: 100px;
+    width: 80px;
 }
 
+.macbook-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.macbook-whole{
+    background: #EDEDED;
+}
 
 .cat {
     display: flex;
@@ -69,116 +83,70 @@
 }
 
 
-.category{
+.category {
     background: #FAFAFA;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .section{
-    
-} */
-
-
-/*
-.body {
-    margin: 0px;
-    padding: 0px;
-}
-
-.navclassbg {
-    background-color: #1A187A;
-}
-
-.logo {
-    width: 150px;
-    margin-left: 145px;
-}
-
-.nav-tog-icon {
-    background-color: white;
-}
-
-.whole-slider {
-    background-image: url(./Images/banner-1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
-}
-
-
-.slider-subtitle {
-    color: #1E046A;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    opacity: 0.5;
-}
-
-
-.title {
-    color: #000;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 72px;
-    letter-spacing: -0.96px;
-}
-
-
-.slider-description {
-    color: #000;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-
-}
-
-.slider-button {
-    display: inline-flex;
-    padding: 16px 56px;
-    justify-content: center;
+.cards {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 8px;
+    justify-content: center;
 
-    border-radius: 6px;
-    border: 1px solid var(--Main-White, #FFF);
-    background: #171495;
+    border-radius: 9px;
+    background: #F6F6F6;
 
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 24px;
+    padding-bottom: 20px;
+    
 }
 
-/* Banner CSS Starts */
-/* ipad img-fluid w-100 ms-5 */
-/*
-.ipad {
-    width: 457px;
-   
-    position: absolute;
-    left: -55px;
-    bottom: -28px;
-    z-index: -1;
+/* 11 11 Sale CSS */
+
+.sale{
+    background-color: #958AD4;
 }
-*/
+
+.number{
+    color: purple;
+    font-size:50px;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 50px;
+    color:white;
+    font-weight: bold;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sale-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer CSS */
+.menus{
+    list-style: none;
+    color:white;
+    
+}
+
+.footer-row{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.whole-footer{
+    background: #0E071B;
+}
