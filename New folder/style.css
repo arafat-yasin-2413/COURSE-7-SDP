@@ -1,0 +1,184 @@
+/* body{
+    overflow-x:hidden;
+} */
+
+.logo {
+    width: 150px;
+}
+
+
+.navcolor {
+    background: #1A187A;
+}
+
+
+.navmenus {
+    color: white;
+}
+
+.navicon {
+
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+
+.toggle-icon {
+    background-color: white;
+}
+
+.slider-img {
+    width: 300px;
+
+}
+
+.slider-area {
+    height: 550px;
+}
+
+/* Banner CSS */
+.headphone {
+    width: 300px;
+}
+
+.headphone-row {
+    background: #ADC2D7;
+}
+
+.mac {
+    width: 100px;
+}
+
+
+.cat {
+    display: flex;
+    /* width: 160px;
+    height: 128px; */
+    /* min-width: 135px; */
+    padding: 24px 52px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+    border-radius: 15px;
+    background: #EDEDED;
+}
+
+
+.category{
+    background: #FAFAFA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .section{
+    
+} */
+
+
+/*
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navclassbg {
+    background-color: #1A187A;
+}
+
+.logo {
+    width: 150px;
+    margin-left: 145px;
+}
+
+.nav-tog-icon {
+    background-color: white;
+}
+
+.whole-slider {
+    background-image: url(./Images/banner-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+
+.slider-subtitle {
+    color: #1E046A;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    opacity: 0.5;
+}
+
+
+.title {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.96px;
+}
+
+
+.slider-description {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.slider-button {
+    display: inline-flex;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 6px;
+    border: 1px solid var(--Main-White, #FFF);
+    background: #171495;
+
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+/* Banner CSS Starts */
+/* ipad img-fluid w-100 ms-5 */
+/*
+.ipad {
+    width: 457px;
+   
+    position: absolute;
+    left: -55px;
+    bottom: -28px;
+    z-index: -1;
+}
+*/
