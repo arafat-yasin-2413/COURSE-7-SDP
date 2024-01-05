@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod 6 Bank Project</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Amount Container -->
+    <div class="amount-container">
+        
+        <div class="deposit amount-box">
+            <div>
+                <h1 id="deposit-amount" class="amount">00</h1>
+                <p>deposit</p>
+            </div>
+        </div>
+
+        <div class="withdraw amount-box">
+            <div>
+                <h1 id="withdraw-amount" class="amount">00</h1>
+                <p>withdraw</p>
+            </div>
+        </div>
+
+        <div class="total amount-box">
+            <div>
+                <h1 id="total-amount" class="amount">00</h1>
+                <p>total</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Deposit, Withdraw Container -->
+    <div class="deposit-withdraw-container">
+        
+        <div class="deposit-box input-box">
+            
+            <input id="deposit-input" type="number"> <br>
+            <button onclick="handleDeposit()" class="btn deposit-btn">Deposit</button>
+        
+        </div>
+
+        <div class="withdraw-box input-box">
+            
+            <input id="withdraw-input" type="number"> <br>
+            <button onclick="handleWithdraw()" class="btn withdraw-btn">Withdraw</button>
+        
+        </div>
+    </div>
+
+    
+
+    <script src="project.js"></script>
+</body>
+</html>

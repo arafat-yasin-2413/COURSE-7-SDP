@@ -1,0 +1,95 @@
+/* Amount Boxes Container CSS */
+.amount-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.amount-box{
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+
+    border-radius: 5px;
+
+    box-shadow: 4px 4px 8px gray;
+
+
+}
+
+.deposit{
+    background-color: rgb(29, 92, 202);
+    color: white;
+}
+
+.withdraw{
+    background-color: rgb(82,13,202);
+    color: white;
+}
+
+.total{
+    background-color: rgb(242,55,78);
+    color: white;
+}
+
+.amount{
+    font-size: 40px;
+}
+
+
+
+/* Deposit, Withdraw Box Container CSS */
+
+.deposit-withdraw-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 80px;
+    gap : 50px;
+
+    text-align: center ;
+
+    
+}
+
+
+.btn{
+    padding: 15px 30px;
+    margin-top: 10px;
+}
+
+.input-box{
+    padding: 30px;
+    border: 1px solid gray;
+}
+
+input{
+    padding: 10px 20px;
+}
+
+
+.deposit-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.withdraw-btn{
+    background-color: rgb(234,10,17);
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
