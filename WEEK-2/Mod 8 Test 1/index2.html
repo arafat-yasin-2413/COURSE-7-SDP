@@ -19,36 +19,59 @@
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+
+
+    <!-- Menu Bar -->
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+
+            <img src="./Images/logo.png" alt="">
+
+            <button onclick="sortByViews(currentCategory)" style="background-color: #EF4444;border:none;"
+                class="btn fs-5 text-white my-5">Sort by views</button>
+
+
+            <button class="btn" style="background-color: #EF4444;">
+                <a id="blog-anchor" class="text-white fs-5" target="_blank" href="./blog.html">Blog</a>
+            </button>
+
+        </div>
+
+    </div>
+
+
 
     <!-- Category Button Section -->
-    <section>
-        <div class="container d-flex justify-content-center gap-3">
-            <button onclick="loadData('All',this)" id="btn-all" class="allButton btn fs-5">
-                All
-            </button>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <button onclick="loadData('All',this)" id="btn-all" class="allButton btn fs-5 my-2 mx-2">
+                        All
+                    </button>
 
-            <button onclick="loadData('Music',this)"  id="btn-music" class="allButton btn fs-5">
-                Music
-            </button>
+                    <button onclick="loadData('Music',this)" id="btn-music" class="allButton btn fs-5 my-2 mx-2">
+                        Music
+                    </button>
 
-            <button onclick="loadData('Comedy',this)"  id="btn-comedy" class="allButton btn fs-5">
-                Comedy
-            </button>
+                    <button onclick="loadData('Comedy',this)" id="btn-comedy" class="allButton btn fs-5 my-2 mx-2">
+                        Comedy
+                    </button>
 
-            <button onclick="loadData('Drawing',this)" id="btn-drawing" class="allButton btn fs-5">
-                Drawing
-            </button>
+                    <button onclick="loadData('Drawing',this)" id="btn-drawing" class="allButton btn fs-5 my-2 mx-2">
+                        Drawing
+                    </button>
+                </div>
+            </div>
+
+
         </div>
-    </section>
+    
     <!-- Category Button Section Ends -->
 
 
     <!-- Content Showing Area -->
     <div class="container my-5">
-        <div id="parent-container"  class="special row row-cols-1 row-cols-md-4 g-4">
-           
-
+        <div id="parent-container" class="special row row-cols-1 row-cols-md-4 g-4">
 
         </div>
 
@@ -61,7 +84,7 @@
     </div>
 
 
-    
+
 
 
 

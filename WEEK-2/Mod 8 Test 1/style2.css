@@ -5,6 +5,9 @@
     background-color: #DFDFDF;
 } */
 
+#blog-anchor{
+    text-decoration: none;
+}
 
 .allButton{
     background-color: #DFDFDF;
@@ -16,6 +19,10 @@
     background-color: #EF4444;
 } 
 
+
+.on-refresh{
+    background-color: #EF4444;
+}
 
 .special{
     display: flex;

@@ -1,8 +1,44 @@
 console.log("script 2 is running");
 
+let currentCategory = 'All';
+
+
+
+const defaultContents =()=>{
+    const defaultUrl = `https://openapi.programming-hero.com/api/videos/category/1000`;
+    fetch(defaultUrl)
+    .then(res => res.json())
+    .then(data => showContents(data.data));
+
+};
+
+
+const defaultClickedButton=document.getElementById('btn-all');
+
+defaultClickedButton.classList.toggle('on-refresh');
+
+
+defaultContents();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const loadData=(type,clickedButton)=>{
     // console.log(type);
 
+    currentCategory = type;
     changeColor(clickedButton);
 
     const url = `https://openapi.programming-hero.com/api/videos/categories`;
@@ -19,13 +55,13 @@ const displayData=(data,contentType)=>{
     const dataArray = data.data;
     // console.log(contentType);
 
+    
+
     dataArray.map(function(x){
         // Content Type : All
         if(x.category === contentType){
             const categoryId = (x.category_id);
             
-        
-
             const urlAll = `https://openapi.programming-hero.com/api/videos/category/${categoryId}`;
 
             fetch(urlAll)
@@ -33,6 +69,7 @@ const displayData=(data,contentType)=>{
             .then(data => displayCategoryWise(data.data,categoryId));
         }
 
+        
         // Content Type : Music
         else if(x.category === contentType){
             const categoryId = (x.category_id);
@@ -78,8 +115,10 @@ const displayData=(data,contentType)=>{
 
 const displayCategoryWise = (data,id) =>{
     const allData = data;
-    // console.log(allData);
+    // console.log(id);
   
+    
+
 
     // console.log(id);
     const urlFormat = `https://openapi.programming-hero.com/api/videos/category/${id}`;
@@ -92,7 +131,7 @@ const displayCategoryWise = (data,id) =>{
 
 
 const showContents = (data)=>{
-
+    // console.log(data);
 
     const parentCont = document.getElementById('parent-container');
     
@@ -121,7 +160,7 @@ const showContents = (data)=>{
     
     allData.forEach(element => {
         // console.log(element);
-        console.log(typeof element.others.views, element.others.views);
+        // console.log(typeof element.others.views, element.others.views);
         const verified = element.authors[0].verified;
         // console.log(typeof verified,verified);
         // const verifiedIcon = <i class="bi bi-patch-check-fill"></i>;
@@ -200,19 +239,24 @@ const showContents = (data)=>{
 
     
 
+     
     
-    
-}
+};
 
 
 
 function changeColor(clickedButton){
     // console.log(clickedButton);
     const buttons = document.querySelectorAll('.allButton');
+    
+    const defaultAllBtn = document.getElementById('btn-all');
+    defaultAllBtn.classList.remove('on-refresh');
 
     buttons.forEach (btnElement => 
         btnElement.classList.remove('active'));
-
+    
     clickedButton.classList.add('active');
 }
+
+
 
